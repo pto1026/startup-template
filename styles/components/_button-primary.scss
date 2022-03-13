@@ -1,0 +1,16 @@
+.button-primary:link, .button-primary:visited {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.6rem 3.2rem;
+    background-color: var(--main-color);
+
+    border-radius: 100rem;
+    transition: all .3s;
+}
+
+.button-primary:hover, .button-primary:active {
+    background-color: var(--main-color-dark);
+}
